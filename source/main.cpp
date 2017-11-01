@@ -17,7 +17,7 @@ int main(int argc, char** argv)
 	CFGU_GetSystemLanguage(&language);
 	
 	printf("Language Code: %d", (int)language);
-	printf("/nPress START to exit");
+	printf("\nPress START to exit");
 	
 	// Main Loop
 	while (aptMainLoop())
